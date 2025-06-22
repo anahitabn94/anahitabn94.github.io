@@ -39,3 +39,26 @@ My academic background includes an M.Sc. in Medical Engineering and a B.Sc. in E
 **Programming**: Python (TensorFlow, PyTorch, Keras), MATLAB, C++, SQL  
 **Tools**: LaTeX, Git, Microsoft Office  
 **Languages**: English (Advanced), Swedish/Danish (Intermediate), Persian (Native)
+---
+
+## 📚 Teaching
+
+- 🧠 **Machine Learning for IoT** — Lund University | 2022–2023  
+- 🎧 **Signal Processing in Multimedia** — Lund University | 2023–2025
+
+---
+
+## 🏆 Awards
+
+- 🌍 WASP Research Stint Abroad, 2024  
+- 🥇 Top 1% MSc Entrance Exam, Iran (2017)  
+- 🥇 Top 0.3% BSc Entrance Exam, Iran (2012)
+---
+
+## 🌱 Interests
+
+📖 Book Devouring &nbsp; ✈️ Travelling &nbsp; 🥾 Hiking
+
+---
+
+Thank you for visiting! 🌟 
