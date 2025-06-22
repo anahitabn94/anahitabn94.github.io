@@ -17,8 +17,7 @@ Welcome to my GitHub profile! I’m a 4th-year PhD student in Electrical Enginee
 
 ## 📚 Research Interests
 
-- 🧠 Robust & Verifiable Neural Networks  
-- 🧬 Trustworthy AI for Biomedical Applications  
-- 🔒 Privacy in ML (e.g., Membership Inference Attacks)  
-- ⚖️ Fairness and Safety in Deep Learning  
+- 🧠 Robust Neural Networks  
+- 🔐 Privacy in ML
+- ⚖️ Fairness in Deep Learning  
 - 🎨 Vision-Language Models and Multi-task Learning
