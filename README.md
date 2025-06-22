@@ -44,8 +44,8 @@ My academic background includes an M.Sc. in Medical Engineering and a B.Sc. in E
 
 ## 📚 Teaching
 
-- 🧠 **Machine Learning for IoT** — Lund University | 2022–2023  
-- 🎧 **Signal Processing in Multimedia** — Lund University | 2023–2025
+- 🧠 **Machine Learning for IoT** — 2022–2023  
+- 🎧 **Signal Processing in Multimedia** — 2023–2025
 
 ---
 
