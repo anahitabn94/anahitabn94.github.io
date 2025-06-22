@@ -8,9 +8,9 @@ Welcome to my GitHub profile! I’m a 4th-year PhD student in Electrical Enginee
   Research on **reliable decision-making** in ML with a focus on **robustness**, **fairness**, and **privacy**.
 - 🧭 Guest PhD student at **EPFL**, Switzerland 
   Explored **task arithmetic** in multi-task learning with **vision-language models**.
-- 🧠 M.Sc. in Medical Engineering, University of Tehran  
+- 🎓 M.Sc. in Medical Engineering, University of Tehran  
   Thesis on **Alzheimer’s diagnosis** using MRI/fMRI fusion via **CCA**
-- ⚙️ B.Sc. in Electrical Engineering, Amirkabir University of Technology  
+- 🎓 B.Sc. in Electrical Engineering, Amirkabir University of Technology  
   Thesis on **image noise cancellation** using **filtering** and **wavelet transforms**
 
 ---
