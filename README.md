@@ -14,6 +14,11 @@ Welcome to my GitHub profile! I’m a 4th-year PhD student in Electrical Enginee
 ## 📚 Research Interests
 
 - 🧠 Robust Neural Networks  
-- 🔐 Privacy in ML
+- 🔐 Privacy in Machine Learning  
 - ⚖️ Fairness in Deep Learning  
-- 🎨 Vision-Language Models and Multi-task Learning
+- 🧩 Multi-task Learning  
+- 📷 Computer Vision  
+- 🖼️ Vision-Language Models  
+- 🧹 Image Noise Cancellation  
+- 🏥 Medical Image Processing
+
