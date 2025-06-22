@@ -27,8 +27,6 @@ My academic background includes an M.Sc. in Medical Engineering and a B.Sc. in E
 
 ## 📝 Selected Publications
 
-- **VNN**: *Verification-Friendly Neural Networks with Hard Robustness Guarantees*, **ICML** 2024, [Paper](https://openreview.net/pdf?id=gUFufRkzjV)/[Code](https://github.com/anahitabn94/VNN) 
-- **SafeDeep**: *A Scalable Robustness Verification Framework for Deep Neural Networks*, **ICASSP** 2023, [Paper](https://portal.research.lu.se/files/141851887/SafeDeep.pdf)/[Code](https://github.com/anahitabn94/SafeDeep)
 - **VNN**: *Verification-Friendly Neural Networks with Hard Robustness Guarantees*, **ICML** 2024  
   <a href="https://openreview.net/pdf?id=gUFufRkzjV" style="text-decoration:none; padding:5px 12px; border:1px solid #0366d6; border-radius:5px; color:#0366d6; font-weight:bold; margin-right:8px;" target="_blank" rel="noopener noreferrer">Paper</a>
   <a href="https://github.com/anahitabn94/VNN" style="text-decoration:none; padding:5px 12px; border:1px solid #28a745; border-radius:5px; color:#28a745; font-weight:bold;" target="_blank" rel="noopener noreferrer">Code</a>
