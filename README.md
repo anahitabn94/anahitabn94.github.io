@@ -27,7 +27,7 @@ My academic background includes an M.Sc. in Medical Engineering and a B.Sc. in E
 
 ## 📝 Selected Publications
 
-- **VNN**: *Verification-Friendly Neural Networks with Hard Robustness Guarantees*, **ICML** 2024, [Paper](https://openreview.net/pdf?id=gUFufRkzjV) / [Code](https://github.com/anahitabn94/VNN) 
-- **SafeDeep**: *A Scalable Robustness Verification Framework for Deep Neural Networks*, **ICASSP** 2023, [Paper](https://portal.research.lu.se/files/141851887/SafeDeep.pdf) / [Code](https://github.com/anahitabn94/SafeDeep)
-- *Robustness and Privacy Interplay in Patient Membership Inference*, **IJCNN** 2025 
+- A. Baninajjar, A. Rezine, A. Aminifar, **“VNN: Verification-Friendly Neural Networks with Hard Robustness Guarantees”**, International Conference on Machine Learning (**ICML**), [Paper](https://openreview.net/pdf?id=gUFufRkzjV) / [Code](https://github.com/anahitabn94/VNN) 
+A. Baninajjar, K. Hosseini, A. Rezine, A. Aminifar, **“SafeDeep: A Scalable Robustness Verification Framework for Deep Neural Networks”**, IEEE International Conference on Acoustics, Speech, and Signal Processing (**ICASSP**), [Paper](https://portal.research.lu.se/files/141851887/SafeDeep.pdf) / [Code](https://github.com/anahitabn94/SafeDeep)
+- A. Baninajjar, A. Aminifar, K. Hosseini, A. Aminifar, A. Rezine, **“Robustness and Privacy Interplay in Patient Membership Inference”**, International Joint Conference on Neural Networks (**IJCNN**) 
 
