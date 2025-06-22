@@ -19,6 +19,5 @@ Welcome to my GitHub profile! I’m a 4th-year PhD student in Electrical Enginee
 - 🧩 Multi-task Learning  
 - 📷 Computer Vision  
 - 🖼️ Vision-Language Models  
-- 🧹 Image Noise Cancellation  
 - 🏥 Medical Image Processing
 
