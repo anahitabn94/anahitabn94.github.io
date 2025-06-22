@@ -16,8 +16,8 @@ Welcome to my GitHub profile! I’m a 4th-year PhD student in Electrical Enginee
 - 🧠 Robust Neural Networks  
 - 🔐 Privacy in Machine Learning  
 - ⚖️ Fairness in Deep Learning  
-- 🧩 Multi-task Learning  
-- 📷 Computer Vision  
+- 🔗 Multi-task Learning  
+- 👁️ Computer Vision  
 - 🖼️ Vision-Language Models  
-- 🏥 Medical Image Processing
+- 🧬 Medical Image Processing
 
