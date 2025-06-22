@@ -36,11 +36,11 @@ My academic background includes an M.Sc. in Medical Engineering and a B.Sc. in E
 
 ## 🛠️ Skills
 
-- Programming: Python (TensorFlow, PyTorch, Keras), MATLAB, C++, SQL  
+- 💻 Programming: Python (TensorFlow, PyTorch, Keras), MATLAB, C++, SQL  
 
-- Tools: LaTeX, Git, Microsoft Office 
+- 🛠️ Tools: LaTeX, Git, Microsoft Office 
 
-- Languages: English (Advanced), Swedish/Danish (Intermediate), Persian (Native)
+- 🗣️ Languages: English (Advanced), Swedish/Danish (Intermediate), Persian (Native)
 
 ---
 
