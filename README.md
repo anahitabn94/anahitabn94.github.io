@@ -12,3 +12,13 @@ Welcome to my GitHub profile! I’m a 4th-year PhD student in Electrical Enginee
   Thesis on **Alzheimer’s diagnosis** using MRI/fMRI fusion via **CCA**
 - ⚙️ B.Sc. in Electrical Engineering, Amirkabir University of Technology  
   Thesis on **image noise cancellation** using **filtering** and **wavelet transforms**
+
+---
+
+## 📚 Research Interests
+
+- 🧠 Robust & Verifiable Neural Networks  
+- 🧬 Trustworthy AI for Biomedical Applications  
+- 🔒 Privacy in ML (e.g., Membership Inference Attacks)  
+- ⚖️ Fairness and Safety in Deep Learning  
+- 🎨 Vision-Language Models and Multi-task Learning
