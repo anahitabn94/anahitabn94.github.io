@@ -9,7 +9,7 @@ I’m currently pursuing my PhD at Lund University, where my research centers on
 
 In fall 2024, I had the opportunity to be a guest PhD student at **EPFL** in Switzerland, exploring task arithmetic in **multi-task learning** with **vision-language models**.
 
-My work aims to contribute to the scientific foundations of trustworthy AI by developing methods that ensure machine learning models perform reliably in real-world settings. My academic background includes an M.Sc. in Medical Engineering and a B.Sc. in Electrical Engineering.
+My academic background includes an M.Sc. in Medical Engineering and a B.Sc. in Electrical Engineering.
 
 ---
 
