@@ -54,6 +54,7 @@ My academic background includes an M.Sc. in Medical Engineering and a B.Sc. in E
 - 🌍 WASP Research Stint Abroad, 2024  
 - 🥇 Top 1% MSc Entrance Exam, 2017  
 - 🥇 Top 0.3% BSc Entrance Exam, 2012
+  
 ---
 
 ## 🌱 Interests
