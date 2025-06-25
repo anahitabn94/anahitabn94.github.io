@@ -31,16 +31,17 @@ My academic background includes an M.Sc. in Medical Engineering and a B.Sc. in E
 - A. Baninajjar, A. Rezine, A. Aminifar, **“VNN: Verification-Friendly Neural Networks with Hard Robustness Guarantees”**, International Conference on Machine Learning (**ICML**), [Paper](https://openreview.net/pdf?id=gUFufRkzjV) / [Code](https://github.com/anahitabn94/VNN) 
 - A. Baninajjar, K. Hosseini, A. Rezine, A. Aminifar, **“SafeDeep: A Scalable Robustness Verification Framework for Deep Neural Networks”**, IEEE International Conference on Acoustics, Speech, and Signal Processing (**ICASSP**), [Paper](https://portal.research.lu.se/files/141851887/SafeDeep.pdf) / [Code](https://github.com/anahitabn94/SafeDeep)
 - A. Baninajjar, A. Aminifar, K. Hosseini, A. Aminifar, A. Rezine, **“Robustness and Privacy Interplay in Patient Membership Inference”**, International Joint Conference on Neural Networks (**IJCNN**)
-<table style="border: none; border-collapse: collapse; box-shadow: none;">
-  <tr>
-    <td style="border: none; padding-right: 15px;" width="30%">
-      <img src="/img/Anahita.png" width="50%">
-    </td>
-    <td style="border: none;">
-      A. Baninajjar, A. Rezine, A. Aminifar, <strong>“VNN: Verification-Friendly Neural Networks with Hard Robustness Guarantees”</strong>, International Conference on Machine Learning (<strong>ICML</strong>), <a href="https://openreview.net/pdf?id=gUFufRkzjV">Paper</a> / <a href="https://github.com/anahitabn94/VNN">Code</a>
-    </td>
-  </tr>
-</table>
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 8px; padding: 10px; box-shadow: 2px 2px 6px rgba(0,0,0,0.1);">
+  <img src="/img/Anahita.png" alt="VNN Paper" style="width: 120px; height: auto; border-radius: 4px; margin-right: 15px;">
+  <div>
+    <p style="margin: 0;">
+      A. Baninajjar, A. Rezine, A. Aminifar, <strong>“VNN: Verification-Friendly Neural Networks with Hard Robustness Guarantees”</strong>, International Conference on Machine Learning (<strong>ICML</strong>), 
+      <a href="https://openreview.net/pdf?id=gUFufRkzjV">Paper</a> / 
+      <a href="https://github.com/anahitabn94/VNN">Code</a>
+    </p>
+  </div>
+</div>
+
 
 
  
