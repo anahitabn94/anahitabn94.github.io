@@ -31,18 +31,6 @@ My academic background includes an M.Sc. in Medical Engineering and a B.Sc. in E
 - A. Baninajjar, A. Rezine, A. Aminifar, **“VNN: Verification-Friendly Neural Networks with Hard Robustness Guarantees”**, International Conference on Machine Learning (**ICML**), [Paper](https://openreview.net/pdf?id=gUFufRkzjV) / [Code](https://github.com/anahitabn94/VNN) 
 - A. Baninajjar, K. Hosseini, A. Rezine, A. Aminifar, **“SafeDeep: A Scalable Robustness Verification Framework for Deep Neural Networks”**, IEEE International Conference on Acoustics, Speech, and Signal Processing (**ICASSP**), [Paper](https://portal.research.lu.se/files/141851887/SafeDeep.pdf) / [Code](https://github.com/anahitabn94/SafeDeep)
 - A. Baninajjar, A. Aminifar, K. Hosseini, A. Aminifar, A. Rezine, **“Robustness and Privacy Interplay in Patient Membership Inference”**, International Joint Conference on Neural Networks (**IJCNN**)
-<div style="overflow: auto; margin-bottom: 20px; padding: 10px; border: 1px solid #ddd; border-radius: 8px;">
-  <div style="float: left; width: 120px; margin-right: 15px;">
-    <img src="/img/Anahita.png" alt="VNN Paper" style="width: 100%; border-radius: 4px;">
-  </div>
-  <div>
-    <p style="margin: 0;">
-      A. Baninajjar, A. Rezine, A. Aminifar, <strong>“VNN: Verification-Friendly Neural Networks with Hard Robustness Guarantees”</strong>, International Conference on Machine Learning (<strong>ICML</strong>), 
-      <a href="https://openreview.net/pdf?id=gUFufRkzjV">Paper</a> / 
-      <a href="https://github.com/anahitabn94/VNN">Code</a>
-    </p>
-  </div>
-</div>
 
 ---
 
