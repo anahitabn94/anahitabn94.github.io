@@ -34,7 +34,7 @@ My academic background includes an M.Sc. in Medical Engineering and a B.Sc. in E
 - <table>
 <tr>
 <td width="30%">
-  <img src="/img/anahita.png" width="100%">
+  <img src="/img/Anahita.png" width="100%">
 </td>
 <td>
   A. Baninajjar, A. Rezine, A. Aminifar, <strong>“VNN: Verification-Friendly Neural Networks with Hard Robustness Guarantees”</strong>, International Conference on Machine Learning (<strong>ICML</strong>), <a href="https://openreview.net/pdf?id=gUFufRkzjV">Paper</a> / <a href="https://github.com/anahitabn94/VNN">Code</a>
