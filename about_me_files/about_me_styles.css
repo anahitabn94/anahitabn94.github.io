@@ -50,6 +50,7 @@
   position: relative;
 }
 
+@media (min-width: 900px) {
 .tab-each::after {
   content: '';
   position: absolute;
@@ -65,10 +66,10 @@
 .tab-each:hover::after {
   width: 100%;
 }
+}
 
 @media (max-width: 1100px) {
   .tab-all {
-    font-size: 1em;
     gap: 20px;
     }
 }
@@ -79,11 +80,29 @@
     align-items: center;
   }
     .tab-Anahita {
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
     }
   .tab-all {
-    padding-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    gap: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .tabs {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+    .tab-Anahita {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    }
+  .tab-all {
+    padding-top: 5px;
+    padding-bottom: 30px;
+    font-size: 1.2em;
     gap: 15px;
     }
 }
@@ -139,7 +158,7 @@
     grid-template-columns: 1fr 10fr 1fr; /* Tablet: 2 columns */
   }
   .greeting-title {
-    font-size: 3.2em; 
+    font-size: 3.0em; 
   }
   .greeting-description {
     font-size: 1.1em; 
@@ -151,7 +170,7 @@
 
 @media (max-width: 600px) {
   .greeting-title {
-    font-size: 3em; 
+    font-size: 2.5em; 
   }
   .greeting-description {
     font-size: 1em; 

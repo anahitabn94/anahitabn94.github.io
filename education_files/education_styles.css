@@ -50,6 +50,7 @@
   position: relative;
 }
 
+@media (min-width: 900px) {
 .tab-each::after {
   content: '';
   position: absolute;
@@ -64,11 +65,11 @@
 
 .tab-each:hover::after {
   width: 100%;
+  }
 }
 
 @media (max-width: 1100px) {
   .tab-all {
-    font-size: 1em;
     gap: 20px;
     }
 }
@@ -79,11 +80,29 @@
     align-items: center;
   }
     .tab-Anahita {
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
     }
   .tab-all {
-    padding-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    gap: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .tabs {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+    .tab-Anahita {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    }
+  .tab-all {
+    padding-top: 5px;
+    padding-bottom: 30px;
+    font-size: 1.2em;
     gap: 15px;
     }
 }
@@ -92,7 +111,7 @@
 
 #education {
     display: grid;
-    grid-template-columns: 1fr 15fr 8fr 1fr;
+    grid-template-columns: 1fr 15fr 1fr 1fr 8fr 1fr;
     background-color: rgba(255,247,243,1);
     width: 100%;
     min-height: 600px;
@@ -117,6 +136,7 @@
     display: block;        /* remove inline spacing */
     margin: 0 auto;        /* optional, center if needed */
     border-radius: 20px;
+    margin-bottom: 20px; 
 }
 
 .education-title {
@@ -131,7 +151,7 @@
 
 .about-button {
     font-family: 'Segoe UI', cursive;
-    margin-top: 10px; 
+    margin-top: 20px; 
     background-color: #323232; 
     color: rgba(255, 255, 255, 0.9); 
     border: 2px solid transparent; /* no visible border initially */
@@ -151,7 +171,7 @@
 
 @media (max-width: 1100px) {
   #education {
-    grid-template-columns: repeat(3, 1fr); /* Tablet: 2 columns */
+    grid-template-columns: 1fr 8fr 1fr; /* Tablet: 2 columns */
   }
   .education-title {
     font-size: 4em; 
@@ -160,21 +180,48 @@
     font-size: 1.33em; 
   }
   .about-button {
-    margin-top: 80px; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
     font-size: 1.6em;
+  }
+}
+
+@media (max-width: 900px) {
+  .education-title {
+    font-size: 3.5em; 
+  }
+  .education-description {
+    font-size: 1.2em; 
+  }
+  .about-button {
+    margin-top: 10px; 
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 750px) {
+  .education-title {
+    font-size: 3em; 
+  }
+  .education-description {
+    font-size: 1.0em; 
+  }
+  .about-button {
+    margin-top: 10px; 
+    font-size: 1.2em;
   }
 }
 
 @media (max-width: 600px) {
   .education-title {
-    font-size: 3em; 
+    font-size: 1.5em; 
   }
   .education-description {
-    font-size: 1em; 
+    font-size: 0.9em; 
   }
   .about-button {
-    margin-top: 60px; 
-    font-size: 1.2em;
+    margin-top: 10px; 
+    font-size: 1.0em;
   }
 }
 

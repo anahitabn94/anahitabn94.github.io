@@ -50,6 +50,7 @@
   position: relative;
 }
 
+@media (min-width: 900px) {
 .tab-each::after {
   content: '';
   position: absolute;
@@ -65,10 +66,10 @@
 .tab-each:hover::after {
   width: 100%;
 }
+}
 
 @media (max-width: 1100px) {
   .tab-all {
-    font-size: 1em;
     gap: 20px;
     }
 }
@@ -79,21 +80,41 @@
     align-items: center;
   }
     .tab-Anahita {
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
     }
   .tab-all {
-    padding-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 30px;
     gap: 15px;
     }
 }
+
+@media (max-width: 600px) {
+    .tabs {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+    .tab-Anahita {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    }
+  .tab-all {
+    padding-top: 5px;
+    padding-bottom: 30px;
+    font-size: 1.2em;
+    gap: 15px;
+    }
+}
+
+
 
 #collaboration {
     display: grid;
     grid-template-columns: 1fr 12fr 1fr 1fr 8fr 1fr;
     background-color: rgba(255,247,243,1);
     width: 100%;
-    min-height: 600px;
+    min-height: 500px;
     margin: 0;
     padding: 0;
     position: relative;
@@ -131,7 +152,7 @@
     grid-template-columns: 1fr 8fr 1fr 1fr 12fr 1fr;
     background-color: #e0fcb4;
     width: 100%;
-    min-height: 600px;
+    min-height: 500px;
     margin: 0;
     padding: 0;
     position: relative;
@@ -156,7 +177,7 @@
 }
 
 .collaboration2-title {
-    font-size: 2.2em;
+    font-size: 2.5em;
     margin-bottom: 10px; 
 }
 
@@ -184,47 +205,89 @@
 }
 
 
-@media (max-width: 1100px) {
-  #collaboration {
-    grid-template-columns: repeat(3, 1fr); /* Tablet: 2 columns */
-  }
+@media (max-width: 1300px) {
   .collaboration-title {
-    font-size: 4em; 
-  }
-  .collaboration-description {
-    font-size: 1.33em; 
-  }
-  #collaboration2 {
-    grid-template-columns: repeat(3, 1fr); /* Tablet: 2 columns */
+    font-size: 2.5em; 
   }
   .collaboration2-title {
-    font-size: 4em; 
+    font-size: 1.8em; 
+  }
+}
+
+@media (max-width: 1100px) {
+  #collaboration {
+    grid-template-columns: 1fr 8fr 1fr; /* Tablet: 2 columns */
+    min-height: 1000px;
+  }
+  .collaboration-title {
+    font-size: 3em; 
+  }
+  .collaboration-description {
+    font-size: 1.1em; 
+  }
+  #collaboration2 {
+    grid-template-columns: 1fr 8fr 1fr; /* Tablet: 2 columns */
+    min-height: 1000px;
+  }
+  .collaboration2-title {
+    font-size: 2.5em; 
   }
   .collaboration2-description {
-    font-size: 1.33em; 
+    font-size: 1.2em; 
   }
-  .about-button {
-    margin-top: 80px; 
+  .button {
+    margin-top: 40px; 
     font-size: 1.6em;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
+  #collaboration {
+    min-height: 800px;
+  }
   .collaboration-title {
-    font-size: 3em; 
+    font-size: 2.0em; 
   }
   .collaboration-description {
     font-size: 1em; 
   }
+  #collaboration2 {
+    min-height: 800px;
+  }
   .collaboration2-title {
-    font-size: 3em; 
+    font-size: 1.8em; 
   }
   .collaboration2-description {
     font-size: 1em; 
   }
-  .about-button {
-    margin-top: 60px; 
-    font-size: 1.2em;
+  .button {
+    margin-top: 10px; 
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 600px) {
+  #collaboration {
+    min-height: 600px;
+  }
+  .collaboration-title {
+    font-size: 1.5em; 
+  }
+  .collaboration-description {
+    font-size: 0.9em; 
+  }
+  #collaboration2 {
+    min-height: 650px;
+  }
+  .collaboration2-title {
+    font-size: 1.4em; 
+  }
+  .collaboration2-description {
+    font-size: 0.9em; 
+  }
+  .button {
+    margin-top: 10px; 
+    font-size: 1em;
   }
 }
 

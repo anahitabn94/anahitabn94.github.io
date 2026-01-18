@@ -53,6 +53,7 @@ body{
   position: relative;
 }
 
+@media (min-width: 900px) {
 .tab-each::after {
   content: '';
   position: absolute;
@@ -68,10 +69,10 @@ body{
 .tab-each:hover::after {
   width: 100%;
 }
+}
 
 @media (max-width: 1100px) {
   .tab-all {
-    font-size: 1em;
     gap: 20px;
     }
 }
@@ -82,71 +83,31 @@ body{
     align-items: center;
   }
     .tab-Anahita {
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
     }
   .tab-all {
-    padding-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 30px;
     gap: 15px;
     }
 }
 
-#collaboration {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    background-color: rgba(255,247,243,1);
-    width: 100%;
-    min-height: 600px;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    top: 0;
-    transform: translateX(-50%);
-    box-sizing: border-box;
-    color: #222;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+@media (max-width: 600px) {
+    .tabs {
+    grid-template-columns: 1fr;
     align-items: center;
 }
-.collaboration-title {
-    font-size: 5em;
-    margin-bottom: 10px; 
+    .tab-Anahita {
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
-
-.collaboration-description {
-    font-size: 1.65em; 
+  .tab-all {
+    padding-top: 5px;
+    padding-bottom: 30px;
+    font-size: 1.2em;
+    gap: 15px;
 }
-
-#collaboration2 {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    background-color: #e0fcb4;
-    width: 100%;
-    min-height: 600px;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    top: 0;
-    transform: translateX(-50%);
-    box-sizing: border-box;
-    color: #222;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.collaboration2-title {
-    font-size: 5em;
-    margin-bottom: 10px; 
-}
-
-.collaboration2-description {
-    font-size: 1.65em; 
 }
 
 .about-button {
@@ -170,24 +131,6 @@ body{
 
 
 @media (max-width: 1100px) {
-  #collaboration {
-    grid-template-columns: repeat(3, 1fr); /* Tablet: 2 columns */
-  }
-  .collaboration-title {
-    font-size: 4em; 
-  }
-  .collaboration-description {
-    font-size: 1.33em; 
-  }
-  #collaboration2 {
-    grid-template-columns: repeat(3, 1fr); /* Tablet: 2 columns */
-  }
-  .collaboration2-title {
-    font-size: 4em; 
-  }
-  .collaboration2-description {
-    font-size: 1.33em; 
-  }
   .about-button {
     margin-top: 80px; 
     font-size: 1.6em;
@@ -195,18 +138,6 @@ body{
 }
 
 @media (max-width: 600px) {
-  .collaboration-title {
-    font-size: 3em; 
-  }
-  .collaboration-description {
-    font-size: 1em; 
-  }
-  .collaboration2-title {
-    font-size: 3em; 
-  }
-  .collaboration2-description {
-    font-size: 1em; 
-  }
   .about-button {
     margin-top: 60px; 
     font-size: 1.2em;
