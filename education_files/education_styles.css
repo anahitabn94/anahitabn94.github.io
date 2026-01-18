@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Yellowtail&family=Segoe+UI&family=Lobster&display=swap");
+
+
+.tabs {
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr auto 1fr;
+    font-size: small;
+    gap: 0px;
+    background-color: rgba(255,247,243,0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 150px;
+    min-height: 20px;
+}
+
+.tab-Anahita {
+    height: 100px;
+    padding-top: 37px;
+    padding-bottom: 10px;
+    border: none;
+    font-family: 'Yellowtail', 'Lobster', 'Pacifico', cursive;
+    font-size: 6em; 
+    letter-spacing: 2px; 
+    color: #b76e79; 
+    text-shadow: 1px 1px 6px #fff; 
+    text-align: center; 
+    justify-self: center;
+}
+
+.tab-all {
+    height: 40px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    border: none;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    column-gap: 30px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 1.4em;
+    color: #222;
+    text-align: center; 
+    justify-self: center;
+}
+
+.tab-each {
+  position: relative;
+}
+
+.tab-each::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background: #323232;
+  left: 50%;
+  bottom: 0;                /* bottom of text box */
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+.tab-each:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 1100px) {
+  .tab-all {
+    font-size: 1em;
+    gap: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .tabs {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+    .tab-Anahita {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    }
+  .tab-all {
+    padding-top: 20px;
+    gap: 15px;
+    }
+}
+
+
+
+#education {
+    display: grid;
+    grid-template-columns: 1fr 15fr 8fr 1fr;
+    background-color: rgba(255,247,243,1);
+    width: 100%;
+    min-height: 600px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.education-img {
+    width: 100%; 
+    aspect-ratio: 0.85/1; 
+    display: block;        /* remove inline spacing */
+    margin: 0 auto;        /* optional, center if needed */
+    border-radius: 20px;
+}
+
+.education-title {
+    font-size: 3em;
+    margin-bottom: 10px; 
+}
+
+.education-description {
+    font-size: 1.35em; 
+    margin-bottom: 2px;
+}
+
+.about-button {
+    font-family: 'Segoe UI', cursive;
+    margin-top: 10px; 
+    background-color: #323232; 
+    color: rgba(255, 255, 255, 0.9); 
+    border: 2px solid transparent; /* no visible border initially */
+    padding: 15px 20px; 
+    border-radius: 40px; 
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.about-button:hover {
+    background-color: rgba(255,247,243,1);
+    color: #222; 
+    border-color: #222;
+    border: 1.5px solid #222;  /* border appears on hover */
+}
+
+
+@media (max-width: 1100px) {
+  #education {
+    grid-template-columns: repeat(3, 1fr); /* Tablet: 2 columns */
+  }
+  .education-title {
+    font-size: 4em; 
+  }
+  .education-description {
+    font-size: 1.33em; 
+  }
+  .about-button {
+    margin-top: 80px; 
+    font-size: 1.6em;
+  }
+}
+
+@media (max-width: 600px) {
+  .education-title {
+    font-size: 3em; 
+  }
+  .education-description {
+    font-size: 1em; 
+  }
+  .about-button {
+    margin-top: 60px; 
+    font-size: 1.2em;
+  }
+}
+
+.ending {
+    background-color: #333;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
